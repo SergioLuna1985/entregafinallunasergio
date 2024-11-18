@@ -1,0 +1,20 @@
+.item_detail_container .itemdetail {
+    background: rgba(29, 29, 29, .9);
+    min-height: 20rem;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .6);
+}
+
+.item_detail_container .img_header {
+    background: var(--neutral800);
+    box-shadow: 3px 0 10px 0 rgba(0, 0, 0, .8);
+    display: flex;
+}
+
+.item_detail_container .img_header img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.item_detail_container .card-text {
+    color: var(--text_light_grey)
+}

@@ -1,0 +1,45 @@
+.CheckOut ul{
+    list-style: none;
+}
+
+.CheckOut li{
+    margin: .5rem 0 .5rem;
+    font-size: 14px;
+}
+
+.CheckOut li > span {
+    width: 1rem;
+    margin-right: .5rem
+}
+
+.CheckOut .checkout_steps > div{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius:  50%;
+    box-shadow:  0 0 .5rem 0 rgb(37, 37, 37);
+    margin: 1rem 0;
+    display:flex;
+
+}
+
+.CheckOut .checkout_steps > div > span{
+    margin: auto auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.CheckOut .checkout_steps > span {
+    margin:auto 0
+}
+
+
+.CheckOut .done {
+    background-color: var(--primary);
+    color: black;
+}
+
+.CheckOut .undone{
+    background-color: var(--neutral500);
+    color: white
+}

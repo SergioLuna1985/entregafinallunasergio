@@ -1,0 +1,7 @@
+/* INFORMACIÓN */
+
+.information {
+    box-shadow: 0 0.5rem 1rem var(--neutral800);
+    padding: 1.5rem;
+    margin-top: 5rem;
+  }
