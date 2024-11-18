@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../../context/cartContext";
 
-import ItemCount from "../itemCount/ItemCount";
+import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({ item }) => {
   const { id, title, description, price, image, stock } = item;

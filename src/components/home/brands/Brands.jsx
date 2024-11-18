@@ -1,6 +1,5 @@
 import React from 'react'
-import { Pagination } from 'swiper'
-import { Autoplay } from "swiper";
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css';
@@ -60,7 +59,6 @@ const Brands = () => {
     <Swiper
       slidesPerView={1}
       loop={true}
-      modules={[ Autoplay]}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,

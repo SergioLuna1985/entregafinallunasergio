@@ -1,18 +1,21 @@
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB50rM2B5ko_qVf0kcdOWcZw9ZejpWe7Rs",
-  authDomain: "ecommerce-9bcf9.firebaseapp.com",
-  projectId: "ecommerce-9bcf9",
-  storageBucket: "ecommerce-9bcf9.firebasestorage.app",
-  messagingSenderId: "972913247818",
-  appId: "1:972913247818:web:b30de2a2f2b5aa7f5848b3"
+  apiKey: "AIzaSyB7gBzh9S7dtcskdRQlgJ8vUn7TFr0jMEg",
+  authDomain: "renegade-store.firebaseapp.com",
+  projectId: "renegade-store",
+  storageBucket: "renegade-store.appspot.com",
+  messagingSenderId: "893173362180",
+  appId: "1:893173362180:web:b9806a2ed38977d1ee0f51",
 };
+
 
 // Initialize Firebase
 initializeApp(firebaseConfig)
 
-const db = getFirestore()
+const app = initializeApp(firebaseConfig);
 
-export default db
+export const db = getFirestore(app);
+export const auth = getAuth(app);

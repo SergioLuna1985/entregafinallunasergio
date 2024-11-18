@@ -1,0 +1,31 @@
+.cartwidget {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    padding: 4px 3px;
+
+    border-bottom: 2px solid var(--primary);
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.cartwidget_icon {
+    margin-right: 8px;
+}
+
+.cartwidget span {
+    color: var(--text_off);
+    transition: all 0.3s ease-in-out;
+}
+
+.cartwidget:hover,
+.cartwidget_on {
+    border-bottom: 2px solid var(--primary_on);
+    text-shadow: 0 0 2px var(--text_on);
+}
+
+.cartwidget:hover>span,
+.cartwidget_on>span {
+    color: var(--text_on);
+}

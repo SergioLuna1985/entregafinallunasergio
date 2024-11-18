@@ -1,4 +1,4 @@
-import { db } from "../../conexion.js";
+import { db } from "../../db/db";
 import { collection, doc, getDoc } from "firebase/firestore";
 
 import { useState, useEffect } from "react";

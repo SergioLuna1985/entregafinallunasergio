@@ -15,6 +15,8 @@ import CartProvider from "./context/cartContext";
 import UserAuthProvider from "./context/userAuthContext";
 import { ToastContainer } from "react-toastify";
 
+import "./App.css"
+
 
 function App() {
 

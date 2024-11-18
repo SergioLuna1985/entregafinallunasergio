@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import Item from "./Item.jsx";
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const ItemPreviewListContainer = ({ fieldFilter }) => {
@@ -52,7 +51,6 @@ const ItemPreviewListContainer = ({ fieldFilter }) => {
             pagination={true}
             navigation={true}
             loop={true}
-            modules={[Autoplay, Pagination, Navigation]}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
